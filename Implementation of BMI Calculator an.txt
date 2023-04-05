@@ -1,0 +1,15 @@
+Implementation of BMI Calculator and Weight status
+- Image is selected by user either from gallery or from camera. 
+- Selected image is converted to Base64 Image encoder a POST request is send to Flask server.
+- In Flask server , the Base64 Image is decoded and Image preprocessing is done for prediction. After Image processing, using predict prediction is done and BMI is calculated and according to BMI level weight status is selected and a RESPONSE is sent back to app.
+- In app BMI and weight status is displayed. 
+
+
+Technology Stack:
+- Flask(For server)
+- Flutter(For app)
+- Tensorflow (For ML)
+- Keras(For ML)
+- sklearn(For ML) 
+- numpy(For ML)
+- pandas(For ML)
